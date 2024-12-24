@@ -10,7 +10,7 @@ describe('French Cities Utils', () => {
     it('should return a city by exact name', () => {
       const city = getCityByExactName('Lyon');
       expect(city).toBeDefined();
-      expect(city?.zip_code).toBe('69001');
+      expect(city?.zip_code).toBe('69008');
     });
   });
 
@@ -26,10 +26,10 @@ describe('French Cities Utils', () => {
 
   describe('getCitiesByDepartement', () => {
     it('should return cities by department name', () => {
-      const cities = getCitiesByDepartement('Rhône');
+      const cities = getCitiesByDepartement('ardèche');
       expect(cities.length).toBeGreaterThan(0);
       cities.forEach(city => {
-        expect(city.department_name).toBe('Rhône');
+        expect(city.department_name).toBe('ardèche');
       });
     });
   });

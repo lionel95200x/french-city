@@ -1,6 +1,6 @@
 {
   "name": "french-city",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Une bibliothèque Node.js fournissant la liste complète des villes françaises",
   "main": "./lib/index.js",
   "files": [

@@ -1,16 +1,15 @@
-export * from './Auvergne-Rhône-Alpes';
-export * from './Bourgogne-Franche-Comté';
-export * from './Bretagne';
-export * from './Centre-Val-de-Loire';
-export * from './Corse';
-export * from './Grand-Est';
-export * from './Hauts-de-France';
-export * from './Ile-de-France';
-export * from './Normandie';
-export * from './Nouvelle-Aquitaine';
-export * from './Occitanie';
-export * from './Pays-de-la-Loire';
-export * from './Provence-Alpes-Côte-dAzur';
+export { cities as AuvergneRhoneAlpesCities } from './Auvergne-Rhône-Alpes'; // Explicit re-export with aliasexport * from './Bourgogne-Franche-Comté';
+export { cities as BretagneCities } from './Bretagne';
+export { cities as CentreValDeLoireCities } from './Centre-Val-de-Loire';
+export { cities as CorseCities } from './Corse';
+export { cities as GrandEstCities } from './Grand-Est';
+export { cities as HautsDeFranceCities } from './Hauts-de-France';
+export { cities as IleDeFranceCities } from './Île-de-France'; // Corrected to match the import statement
+export { cities as NormandieCities } from './Normandie';
+export { cities as NouvelleAquitaineCities } from './Nouvelle-Aquitaine';
+export { cities as OccitanieCities } from './Occitanie';
+export { cities as PaysDeLaLoireCities } from './Pays-de-la-Loire';
+export { cities as ProvenceAlpesCoteDAzurCities } from "./Provence-Alpes-Côte-d'Azur";
 
 import { cities as AuvergneRhoneAlpes } from './Auvergne-Rhône-Alpes';
 import { cities as BourgogneFrancheComte } from './Bourgogne-Franche-Comté';

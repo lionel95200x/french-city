@@ -1,7 +1,7 @@
 {
-  "name": "typescript-npm-package-template",
-  "version": "0.0.0-development",
-  "description": "A template for creating npm packages using TypeScript and VSCode",
+  "name": "french-city",
+  "version": "0.0.1",
+  "description": "Une bibliothèque Node.js fournissant la liste complète des villes françaises",
   "main": "./lib/index.js",
   "files": [
     "lib/**/*"
@@ -19,32 +19,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryansonshine/typescript-npm-package-template.git"
+    "url": "git+https://github.com/lionel95200x/french-city.git"
   },
   "license": "MIT",
   "author": {
-    "name": "Ryan Sonshine",
-    "email": "ryansonshine@users.noreply.github.com",
-    "url": "https://github.com/ryansonshine"
+    "name": "Lionel",
+    "email": "lionel95200@gmail.com",
+    "url": "https://github.com/lionel95200x"
   },
   "engines": {
     "node": ">=12.0"
   },
   "keywords": [
-    "boilerplate",
-    "template",
+    "france",
+    "villes",
+    "communes",
+    "géographie",
     "typescript",
-    "vscode",
-    "jest",
-    "husky",
-    "commitizen",
-    "semantic-release",
-    "codecov"
+    "données"
   ],
   "bugs": {
-    "url": "https://github.com/ryansonshine/typescript-npm-package-template/issues"
+    "url": "https://github.com/lionel95200x/french-city/issues"
   },
-  "homepage": "https://github.com/ryansonshine/typescript-npm-package-template#readme",
+  "homepage": "https://github.com/lionel95200x/french-city#readme",
   "devDependencies": {
     "@ryansonshine/commitizen": "^4.2.8",
     "@ryansonshine/cz-conventional-changelog": "^3.3.4",

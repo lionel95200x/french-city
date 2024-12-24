@@ -25,7 +25,7 @@ import {
   searchCitiesByName,
   getCitiesByDepartement,
   getCitiesByPostalCode,
-} from 'my-package-name';
+} from 'french-city';
 
 // Example usage
 const city = getCityByInseeCode('69123');
@@ -81,16 +81,16 @@ export interface City {
 }
 ```
 
-[build-img]: https://github.com/ryansonshine/typescript-npm-package-template/actions/workflows/release.yml/badge.svg
-[build-url]: https://github.com/ryansonshine/typescript-npm-package-template/actions/workflows/release.yml
-[downloads-img]: https://img.shields.io/npm/dt/typescript-npm-package-template
-[downloads-url]: https://www.npmtrends.com/typescript-npm-package-template
-[npm-img]: https://img.shields.io/npm/v/typescript-npm-package-template
-[npm-url]: https://www.npmjs.com/package/typescript-npm-package-template
-[issues-img]: https://img.shields.io/github/issues/ryansonshine/typescript-npm-package-template
-[issues-url]: https://github.com/ryansonshine/typescript-npm-package-template/issues
-[codecov-img]: https://codecov.io/gh/ryansonshine/typescript-npm-package-template/branch/main/graph/badge.svg
-[codecov-url]: https://codecov.io/gh/ryansonshine/typescript-npm-package-template
+[build-img]: https://github.com/lionel95200x/french-city/actions/workflows/release.yml/badge.svg
+[build-url]: https://github.com/lionel95200x/french-city/actions/workflows/release.yml
+[downloads-img]: https://img.shields.io/npm/dt/french-city
+[downloads-url]: https://www.npmjs.com/package/french-city
+[npm-img]: https://img.shields.io/npm/v/french-city
+[npm-url]: https://www.npmjs.com/package/french-city
+[issues-img]: https://img.shields.io/github/issues/lionel95200x/french-city
+[issues-url]: https://github.com/lionel95200x/french-city/issues
+[codecov-img]: https://codecov.io/gh/lionel95200x/french-city/branch/main/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/lionel95200x/french-city
 [semantic-release-img]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
 [semantic-release-url]: https://github.com/semantic-release/semantic-release
 [commitizen-img]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg

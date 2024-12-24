@@ -20,7 +20,6 @@ npm install french-city
 
 ```ts
 import {
-  getCityByInseeCode,
   getCityByExactName,
   searchCitiesByName,
   getCitiesByDepartement,
@@ -28,9 +27,6 @@ import {
 } from 'french-city';
 
 // Example usage
-const city = getCityByInseeCode('69123');
-console.log(city); // { city: 'Lyon', zip_code: '69001', department_name: 'Rhône' }
-
 const exactCity = getCityByExactName('Lyon');
 console.log(exactCity); // { city: 'Lyon', zip_code: '69001', department_name: 'Rhône' }
 

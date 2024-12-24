@@ -1,4 +1,6 @@
-export const cities = [
+import { City } from '../types';
+
+export const cities: City[] = [
   { city: 'Ville-du-Pont', zip_code: '25650', department_name: 'doubs' },
   { city: 'Villers-Grelot', zip_code: '25640', department_name: 'doubs' },
   { city: 'Villars-Les-Blamont', zip_code: '25310', department_name: 'doubs' },
